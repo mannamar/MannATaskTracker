@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Outfit:wght@400;700&display=swap');
+
+h1 {
+    color: white;
+    font-family: 'Outfit', sans-serif;
+    font-size: 64px;
+    font-weight: bold;
+}
+
+.hero-cont {
+    height: 186px;
+    background-color: #009FFD;
+    margin-bottom: 70px;
+}
+
+#addTaskBtn {
+    margin-left: 20px;
+}
+
+#listRow {
+    margin-top: 60px;
+}
+
+.header {
+    padding-bottom: 0px;
+}
+
+.listItem {
+    background-color: rgb(15, 57, 142);
+    width: 80%;
+    min-height: 105px;
+    margin: auto;
+    border-radius: 15px;
+    margin-top: 30px;
+}
+
+.taskName,
+.taskDate,
+.taskPrio {
+    color: white;
+    margin-bottom: 5px;
+    margin-left: 25px;
+}
+
+p {
+    text-align: left;
+}
+
+.taskName {
+    margin-top: 10px;
+}
+
+.editBtn {
+    margin-top: 10px;
+    margin-right: 25px;
+}
+
+#addModalTitle {
+    color: black;
+}
