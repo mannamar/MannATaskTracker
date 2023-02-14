@@ -28,6 +28,7 @@ h1 {
 .listItem {
     background-color: rgb(15, 57, 142);
     width: 80%;
+    max-width: 500px;
     min-height: 105px;
     margin: auto;
     border-radius: 15px;
@@ -51,6 +52,11 @@ p {
 }
 
 .editBtn {
+    margin-top: 10px;
+    margin-right: 25px;
+}
+
+.delBtn {
     margin-top: 10px;
     margin-right: 25px;
 }
